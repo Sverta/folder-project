@@ -1,0 +1,19 @@
+{
+	"node":  {
+		"name: 'Node 1',
+		"children": [{
+			"name": "Node 2",
+			"childred": "[]"
+		}, {
+			"name": "Node 3",
+			"childred": []
+		},{
+			"name": "Node 2",
+			"childred": [{
+				"name": "Node 4",
+				"childred": []
+			}]
+		}]
+	}
+}
+
