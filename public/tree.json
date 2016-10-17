@@ -1,37 +1,37 @@
 [{
-	name: 'Node 1',
-	children: [{
-		name: "Node 2",
-		childred: []
+	"name": "Node 1",
+	"children": [{
+		"name": "Node 2",
+		"childred": []
 	}, {
-		name: "Node 3",
-		childred: []
+		"name": "Node 3",
+		"childred": []
 	},{
-		name: "Node 21",
-		childred: [{
-			name: "Node 4",
-			childred: []
+		"name": "Node 21",
+		"childred": [{
+			"name": "Node 4",
+			"childred": []
 		}]
 	}]
 },{
-	name: 'Node 10',
-	children: [{
-		name: "Node 20",
-		childred: []
+	"name": "Node 10",
+	"children": [{
+		"name": "Node 20",
+		"childred": []
 	}, {
-		name: "Node 30",
-		childred: []
+		"name": "Node 30",
+		"childred": []
 	},{
-		name: "Node 210",
-		childred: [{
-			name: "Node 40",
-			childred: []
+		"name": "Node 210",
+		"childred": [{
+			"name": "Node 40",
+			"childred": []
 		}]
 	}, {
-		name: "Node 220",
-		childred: [{
-			name: "Node 41",
-			childred: []
+		"name": "Node 220",
+		"childred": [{
+			"name": "Node 41",
+			"childred": []
 		}]
 	}]
 }]
