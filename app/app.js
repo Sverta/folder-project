@@ -15,11 +15,6 @@ document.addEventListener("DOMContentLoaded",
                     var link = "<a href='#' class='datavalue'>" + value + "</a>";
                     output = "<li>" + link + "</li>";
                 }
-                for (var j in key) {
-
-                    console.log(key);
-                }
-
                 folder.innerHTML += output;
                 output += "</ul>";
 
