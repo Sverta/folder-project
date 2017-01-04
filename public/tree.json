@@ -2,36 +2,36 @@
 	"name": "Node 1",
 	"children": [{
 		"name": "Node 2",
-		"childred": []
+		"children": []
 	}, {
 		"name": "Node 3",
-		"childred": []
+		"children": []
 	},{
 		"name": "Node 21",
-		"childred": [{
+		"children": [{
 			"name": "Node 4",
-			"childred": []
+			"children": []
 		}]
 	}]
 },{
 	"name": "Node 10",
 	"children": [{
 		"name": "Node 20",
-		"childred": []
+		"children": []
 	}, {
 		"name": "Node 30",
-		"childred": []
+		"children": []
 	},{
 		"name": "Node 210",
-		"childred": [{
+		"children": [{
 			"name": "Node 40",
-			"childred": []
+			"children": []
 		}]
 	}, {
 		"name": "Node 220",
-		"childred": [{
+		"children": [{
 			"name": "Node 41",
-			"childred": []
+			"children": []
 		}]
 	}]
 }]
