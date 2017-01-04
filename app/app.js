@@ -1,32 +1,40 @@
 document.addEventListener("DOMContentLoaded",
     function loadTreeData() {
         var xhr = new XMLHttpRequest(); //создает новый объект
-            xhr.open('GET', 'public/tree.json', true);
-            xhr.send();
-            xhr.onreadystatechange = function() {
-                    if (this.readyState != 4) return;
-                    var jsonResponse = JSON.parse(xhr.responseText, function (key,value) {
-                            var folder = document.getElementById('folder');
-                            var link = "<a href='#'>"+xhr.responseText+"</a>";
-                            folder.innerHTML = "<ul><li>"+link+"</li></ul>";
-                            // for( var prop in this ) {
-                            //         if( this.hasOwnProperty( prop ) ) {
-                            //                 if( this[ prop ] === value )
-                            //                         return prop;
-                            //                 //console.log(prop);
-                            //         }
-                            // }
+        var url = 'public/tree.json';
+        xhr.open('GET', url, true);
+        xhr.send();
+        xhr.onreadystatechange = function () {
+            if (this.readyState != 4) return;
+            var jsonResponse = JSON.parse(xhr.responseText, function (key, value) {
+                var folder = document.getElementById('folder');
+                var output = "<ul>";
+                var i;
 
-                               // if(key == 'name'){
-                                    //       //  return value;
-                                    //         console.log(value)
-                                    // }else if(key == 'children'){
-                                    //
-                                    // }
+                for (i in value) {
+                    var link = "<a href='#' class='datavalue'>" + value + "</a>";
+                    output = "<li>" + link + "</li>";
+                }
+                for (var j in key) {
 
+                    console.log(key);
+                }
 
-                    });
-            };
+                folder.innerHTML += output;
+                output += "</ul>";
+
+            });
+
+            // var accordion = document.getElementsByClassName('datavalue');
+            //
+            // for (var k = 0; k < accordion.length; k++) {
+            //     accordion[k].onclick = function(){
+            //         this.classList.toggle("active");
+            //         this.nextElementSibling.classList.toggle("show");
+            //     }
+            // }
+            // console.log(accordion);
+        };
     });
 
 
