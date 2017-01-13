@@ -1,37 +1,56 @@
-[{
-	"name": "Node 1",
-	"children": [{
-		"name": "Node 2",
-		"children": []
-	}, {
-		"name": "Node 3",
-		"children": []
-	},{
-		"name": "Node 21",
-		"children": [{
-			"name": "Node 4",
-			"children": []
-		}]
-	}]
-},{
-	"name": "Node 10",
-	"children": [{
-		"name": "Node 20",
-		"children": []
-	}, {
-		"name": "Node 30",
-		"children": []
-	},{
-		"name": "Node 210",
-		"children": [{
-			"name": "Node 40",
-			"children": []
-		}]
-	}, {
-		"name": "Node 220",
-		"children": [{
-			"name": "Node 41",
-			"children": []
-		}]
-	}]
-}]
+
+[
+	{
+		"name": "Node 1",
+		"children": [
+			{
+				"name": "Node 2",
+				"children": []
+			},
+			{
+				"name": "Node 3",
+				"children": []
+			},
+			{
+				"name": "Node 21",
+				"children": [
+					{
+						"name": "Node 4",
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Node 10",
+		"children": [
+			{
+				"name": "Node 20",
+				"children": []
+			},
+			{
+				"name": "Node 30",
+				"children": []
+			},
+			{
+				"name": "Node 210",
+				"children": [
+					{
+						"name": "Node 40",
+						"children": []
+					}
+				]
+			},
+			{
+				"name": "Node 220",
+				"children": [
+					{
+						"name": "Node 41",
+						"children": []
+					}
+				]
+			}
+		]
+	}
+]
